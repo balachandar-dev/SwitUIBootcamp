@@ -17,6 +17,9 @@
 		2C98EEF72C0F08C500132C7C /* SecondSwiftUIBootcampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C98EEF62C0F08C500132C7C /* SecondSwiftUIBootcampUITests.swift */; };
 		2C98EF092C0F0B8800132C7C /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C98EF082C0F0B8800132C7C /* UserModel.swift */; };
 		2C98EF132C0F0BAD00132C7C /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C98EF122C0F0BAD00132C7C /* ApiCall.swift */; };
+		2C98EF362C10675C00132C7C /* PropertyWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C98EF352C10675C00132C7C /* PropertyWrapperView.swift */; };
+		2C98EF3E2C106BC900132C7C /* ModalSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C98EF3D2C106BC900132C7C /* ModalSheetView.swift */; };
+		2C98EF432C10702100132C7C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C98EF422C10702100132C7C /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		2C98EEF82C0F08C500132C7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C98EF082C0F0B8800132C7C /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		2C98EF122C0F0BAD00132C7C /* ApiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCall.swift; sourceTree = "<group>"; };
+		2C98EF352C10675C00132C7C /* PropertyWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperView.swift; sourceTree = "<group>"; };
+		2C98EF3D2C106BC900132C7C /* ModalSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalSheetView.swift; sourceTree = "<group>"; };
+		2C98EF422C10702100132C7C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,7 @@
 		2C98EED32C0F08C300132C7C /* SecondSwiftUIBootcamp */ = {
 			isa = PBXGroup;
 			children = (
+				2C98EF342C10674600132C7C /* Property */,
 				2C98EF072C0F0B7B00132C7C /* ListApi */,
 				2C98EED42C0F08C300132C7C /* SecondSwiftUIBootcampApp.swift */,
 				2C98EED62C0F08C300132C7C /* ContentView.swift */,
@@ -164,6 +171,16 @@
 				2C98EF122C0F0BAD00132C7C /* ApiCall.swift */,
 			);
 			path = Api;
+			sourceTree = "<group>";
+		};
+		2C98EF342C10674600132C7C /* Property */ = {
+			isa = PBXGroup;
+			children = (
+				2C98EF352C10675C00132C7C /* PropertyWrapperView.swift */,
+				2C98EF3D2C106BC900132C7C /* ModalSheetView.swift */,
+				2C98EF422C10702100132C7C /* User.swift */,
+			);
+			path = Property;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,10 +312,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C98EF3E2C106BC900132C7C /* ModalSheetView.swift in Sources */,
 				2C98EEDE2C0F08C400132C7C /* Persistence.swift in Sources */,
 				2C98EED72C0F08C300132C7C /* ContentView.swift in Sources */,
 				2C98EEE12C0F08C400132C7C /* SecondSwiftUIBootcamp.xcdatamodeld in Sources */,
 				2C98EF092C0F0B8800132C7C /* UserModel.swift in Sources */,
+				2C98EF432C10702100132C7C /* User.swift in Sources */,
+				2C98EF362C10675C00132C7C /* PropertyWrapperView.swift in Sources */,
 				2C98EF132C0F0BAD00132C7C /* ApiCall.swift in Sources */,
 				2C98EED52C0F08C300132C7C /* SecondSwiftUIBootcampApp.swift in Sources */,
 			);
